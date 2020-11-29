@@ -43,3 +43,52 @@ nav ul li a{
     text-decoration: none;
     color:rebeccapurple;
 }
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: rebeccapurple;
+}
+
+header p{
+    margin-bottom: 2em;
+
+}
+#Sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: white;
+    color: black;
+}
+#Sobre h2{
+    color: black;
+}
+#Sobre p{
+    max-width: 1000px;
+}
+#Contato{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+#Contato div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
